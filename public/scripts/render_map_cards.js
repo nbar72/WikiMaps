@@ -36,6 +36,10 @@ $(document).ready(function () {
     },
   });
 
+  // Handle click event for the heart icon
+  $(document).on('click', '.fa-heart', function() {
+    $(this).toggleClass('favourite');
+  });
 
   // Render maps belonging to logged in user onto mymaps.ejs
   $.ajax({

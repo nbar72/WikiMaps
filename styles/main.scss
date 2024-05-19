@@ -36,10 +36,18 @@ main {
   }
 }
 
-.fa-solid {
+.fa-heart {
   font-size: 20px;
+  color: black; /* Default color */
+}
 
+.fa-eye {
+  font-size: 20px;
   &:hover {
     color: rgb(186, 122, 2);
   }
+}
+
+.fa-heart.favourite {
+  color: rgb(186, 122, 2); /* Color when clicked */
 }
